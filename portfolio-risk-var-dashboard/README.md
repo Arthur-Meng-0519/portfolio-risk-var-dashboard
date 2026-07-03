@@ -6,6 +6,9 @@ An interactive Python dashboard for portfolio market risk analysis. The app comb
 
 Modern market risk teams do not only report VaR. They increasingly focus on tail risk, scenario analysis, explainable risk drivers, and regulatory-style Expected Shortfall thinking. This project is designed to look more realistic than a basic school VaR calculator.
 
+## Live Demo
+**https://portfolio-risk-var-dashboard-arthurmeng0519.streamlit.app/** 
+
 ## Features
 
 - Download live historical price data using `yfinance`
@@ -86,11 +89,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Suggested Portfolio Description
 
-> Built an interactive market risk dashboard in Python and Streamlit that estimates portfolio VaR, Expected Shortfall, drawdown, volatility, beta, correlation, stress-test losses, and contribution-to-risk using live market data.
-
-## Future Improvements
+## Future Improvement Ideas
 
 - Add GARCH volatility forecasting
 - Add factor exposure analysis such as market, size, value, momentum, and quality
